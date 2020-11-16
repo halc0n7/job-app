@@ -1,7 +1,7 @@
 import React from "react";
 
 const Header = () => {
-  return <div>from Header.js</div>;
+  return <div>Github Jobs</div>;
 };
 
 export default Header;
