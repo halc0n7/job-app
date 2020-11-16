@@ -9,8 +9,8 @@ const StyledContainer = styled.ul`
 const List = ({ cities }) => {
   return (
     <StyledContainer>
-      {cities.map((city) => (
-        <Item city={city} />
+      {cities.map((city, i) => (
+        <Item key={i} city={city} />
       ))}
     </StyledContainer>
   );
