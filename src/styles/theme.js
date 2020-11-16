@@ -10,7 +10,7 @@ const theme = {
   },
 
   shadows: {
-    input: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+    input: "0px 2px 8px rgba(0, 0, 0, 0.1)",
     header: "0 0 2px 2px rgba(232, 232, 232)",
   },
 

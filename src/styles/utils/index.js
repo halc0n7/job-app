@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import { mixins, theme } from "..";
 
-const { colors, fontSizes, xsBorderRadius } = theme;
+const { colors, fontSizes, shadows, xsBorderRadius } = theme;
 
 export const StyledInput = styled.input`
   background-color: ${colors.white};
   border-radius: ${xsBorderRadius};
+  box-shadow: ${shadows.input};
   color: ${colors.darkslateblue};
   font-size: ${fontSizes.xs};
   font-weight: 500;
@@ -36,5 +37,6 @@ export const StyledCheckbox = styled.li`
     font-weight: 500;
     line-height: 20px;
     margin: 0 0.75em;
+    text-transform: capitalize;
   }
 `;

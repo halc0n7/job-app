@@ -3,6 +3,7 @@ import { mixins, theme } from "../../..";
 import backgroundImage from "../../../../images/backgroundImg.png";
 
 const { mdBorderRadius } = theme;
+
 export const StyledSearch = styled.div`
   border: 1px solid red;
 `;

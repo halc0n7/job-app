@@ -34,7 +34,7 @@ const Search = () => {
       <ul>
         <StyledCheckbox>
           <input type="checkbox" name="full" id="full" />
-          <label htmlFor="full">Full time</label>
+          <label htmlFor="full">full time</label>
         </StyledCheckbox>
       </ul>
     </StyledSearch>
