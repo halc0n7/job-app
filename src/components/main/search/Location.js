@@ -8,22 +8,22 @@ const Location = () => {
       <ul>
         <li>
           <input type="checkbox" name="city" id="london" />
-          <label htmlFor="london">London</label>
+          <label htmlFor="london">london</label>
         </li>
 
         <li>
           <input type="checkbox" name="city" id="amsterdam" />
-          <label htmlFor="amsterdam">Amsterdam</label>
+          <label htmlFor="amsterdam">amsterdam</label>
         </li>
 
         <li>
           <input type="checkbox" name="city" id="new-york" />
-          <label htmlFor="new-york">New York</label>
+          <label htmlFor="new-york">new York</label>
         </li>
 
         <li>
           <input type="checkbox" name="city" id="berlin" />
-          <label htmlFor="berlin">Berlin</label>
+          <label htmlFor="berlin">berlin</label>
         </li>
       </ul>
     </div>

@@ -4,6 +4,7 @@ const theme = {
     darkslateblue: "#334680",
     dodgerblue: "#1e86ff",
     gray: "#838383",
+    silver: "#b9bdcf",
     white: "#ffffff",
     whitesmoke: "#f3f3f3",
   },
@@ -19,15 +20,16 @@ const theme = {
   },
 
   fontSizes: {
-    xs: "11px",
-    sm: "13px",
+    xs: "12px",
+    sm: "14px",
     md: "16px",
     lg: "18px",
     xl: "24px",
     xxl: "45px",
   },
 
-  borderRadius: "4px",
+  xsBorderRadius: "4px",
+  mdBorderRadius: "8px",
   easing: "cubic-bezier(0.645, 0.045, 0.355, 1)",
   transition: "all 0.75s cubic-bezier(0.645, 0.045, 0.355, 1)",
 };

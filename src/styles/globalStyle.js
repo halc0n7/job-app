@@ -14,7 +14,7 @@ body {
   background-color: ${colors.whitesmoke};
   color: ${colors.darkslateblue}; 
   font-family: ${fonts.SegoeUI};
-  font-size: ${fontSizes.sm};
+  font-size: ${fontSizes.lg};
   margin: 0;
   min-height: 100%;
   position: relative;
