@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 import theme from "./theme";
+
 const { colors, fontSizes, fonts } = theme;
 
 const GlobalStyle = createGlobalStyle`
@@ -57,46 +58,23 @@ a {
   position: relative;
 }
 
-abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
-}
-
 b,
 strong {
   font-weight: bolder;
-}
-
-code,
-kbd,
-samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
 }
 
 small {
   font-size: 80%;
 }
 
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.5em;
-}
-
 img {
   border-style: none;
+}
+
+svg{
+  fill: ${colors.silver};
+  max-width: 18px;
+  width: 100%;
 }
 
 button,

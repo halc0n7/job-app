@@ -40,3 +40,23 @@ export const StyledCheckbox = styled.li`
     text-transform: capitalize;
   }
 `;
+
+export const StyledPill = styled.div`
+  border: 1px solid ${colors.darkslateblue};
+  border-radius: ${xsBorderRadius};
+  font-size: ${fontSizes.xs};
+  font-weight: 700;
+  line-height: 14px;
+  padding: 6px;
+  text-align: center;
+  width: 65px;
+`;
+
+export const StyledSilverText = styled.p`
+  color: ${colors.silver};
+  font-size: ${fontSizes.xs};
+  font-weight: 500;
+  line-height: 14px;
+
+  ${mixins.flexBetween};
+`;
