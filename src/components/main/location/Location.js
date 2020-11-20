@@ -4,7 +4,7 @@ import {
   StyledLocation,
   StyledTitle,
 } from "../../../styles/components/main/location";
-import { StyledInput } from "../../../styles/utils";
+import { StyledCheckbox, StyledInput } from "../../../styles/utils";
 import List from "./List";
 
 const StyledInputLocation = styled(StyledInput)`
@@ -16,6 +16,13 @@ const Location = () => {
 
   return (
     <StyledLocation>
+      <ul>
+        <StyledCheckbox>
+          <input type="checkbox" name="full" id="full" />
+          <label htmlFor="full">full time</label>
+        </StyledCheckbox>
+      </ul>
+
       <StyledTitle>location</StyledTitle>
 
       <StyledInputLocation

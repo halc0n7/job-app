@@ -5,6 +5,8 @@ const { fontSizes, colors } = theme;
 
 export const StyledLocation = styled.div`
   border: 1px solid green;
+  max-width: 380px;
+  width: 100%;
 `;
 
 export const StyledTitle = styled.h2`
