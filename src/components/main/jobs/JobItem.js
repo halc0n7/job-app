@@ -9,6 +9,7 @@ import {
   StyledDetails,
 } from "../../../styles/components/main/jobs";
 import { StyledPill, StyledSilverText } from "../../../styles/utils";
+import { ClockIcon, WorldIcon } from "../../../icons";
 
 const StyledPillJobItem = styled(StyledPill)`
   margin-top: 12px;
@@ -34,8 +35,12 @@ const JobItem = ({
             <StyledPillJobItem>{type}</StyledPillJobItem>
 
             <StyledDetails>
-              <StyledSilverTextJobItem>{location}</StyledSilverTextJobItem>
-              <StyledSilverTextJobItem>{created_at}</StyledSilverTextJobItem>
+              <StyledSilverTextJobItem>
+                <WorldIcon /> <span>{location}</span>
+              </StyledSilverTextJobItem>
+              <StyledSilverTextJobItem>
+                <ClockIcon /> <span>{created_at}</span>
+              </StyledSilverTextJobItem>
             </StyledDetails>
           </StyledContent>
         </StyledCard>

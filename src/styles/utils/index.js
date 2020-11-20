@@ -57,4 +57,6 @@ export const StyledSilverText = styled.p`
   font-size: ${fontSizes.xs};
   font-weight: 500;
   line-height: 14px;
+
+  ${mixins.flexBetween};
 `;
